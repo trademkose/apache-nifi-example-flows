@@ -1,0 +1,2186 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<template encoding-version="1.3">
+    <description>This flow contains below features;
+- Creating Loop betwwen 0 to 10
+- Editing the existing field, increasing..
+- Adding new field to the flow-content
+
+</description>
+    <groupId>16053ca2-325e-1d0a-e53e-5fd22a040ae9</groupId>
+    <name>flow2</name>
+    <snippet>
+        <connections>
+            <id>0b151f3f-57d0-38a2-0000-000000000000</id>
+            <parentGroupId>7f7230b4-642a-317d-0000-000000000000</parentGroupId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>7f7230b4-642a-317d-0000-000000000000</groupId>
+                <id>486b81f6-e0e6-35c8-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+            <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+            <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+            <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+            <name></name>
+            <selectedRelationships>success</selectedRelationships>
+            <source>
+                <groupId>7f7230b4-642a-317d-0000-000000000000</groupId>
+                <id>aa5ab995-f7fc-39a6-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>10d230d9-7402-3f69-0000-000000000000</id>
+            <parentGroupId>7f7230b4-642a-317d-0000-000000000000</parentGroupId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>7f7230b4-642a-317d-0000-000000000000</groupId>
+                <id>aa5ab995-f7fc-39a6-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+            <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+            <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+            <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+            <name></name>
+            <selectedRelationships>success</selectedRelationships>
+            <source>
+                <groupId>7f7230b4-642a-317d-0000-000000000000</groupId>
+                <id>6f489973-7200-3d2e-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>1c3d3795-9e3d-37b8-0000-000000000000</id>
+            <parentGroupId>7f7230b4-642a-317d-0000-000000000000</parentGroupId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>7f7230b4-642a-317d-0000-000000000000</groupId>
+                <id>e682fb70-4b14-34be-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+            <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+            <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+            <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+            <name></name>
+            <selectedRelationships>success</selectedRelationships>
+            <source>
+                <groupId>7f7230b4-642a-317d-0000-000000000000</groupId>
+                <id>486b81f6-e0e6-35c8-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>55660d46-1d54-359a-0000-000000000000</id>
+            <parentGroupId>7f7230b4-642a-317d-0000-000000000000</parentGroupId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>7f7230b4-642a-317d-0000-000000000000</groupId>
+                <id>3e6134df-123f-3489-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+            <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+            <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+            <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+            <name></name>
+            <selectedRelationships>success</selectedRelationships>
+            <source>
+                <groupId>7f7230b4-642a-317d-0000-000000000000</groupId>
+                <id>f4569b1d-d9a6-3a8b-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>91d283b9-62ba-3f2b-0000-000000000000</id>
+            <parentGroupId>7f7230b4-642a-317d-0000-000000000000</parentGroupId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>7f7230b4-642a-317d-0000-000000000000</groupId>
+                <id>aa5ab995-f7fc-39a6-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+            <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+            <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+            <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+            <name></name>
+            <selectedRelationships>failure</selectedRelationships>
+            <source>
+                <groupId>7f7230b4-642a-317d-0000-000000000000</groupId>
+                <id>e682fb70-4b14-34be-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>b084bd2b-7f69-31cc-0000-000000000000</id>
+            <parentGroupId>7f7230b4-642a-317d-0000-000000000000</parentGroupId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>1</backPressureObjectThreshold>
+            <destination>
+                <groupId>7f7230b4-642a-317d-0000-000000000000</groupId>
+                <id>6f489973-7200-3d2e-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+            <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+            <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+            <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+            <name></name>
+            <selectedRelationships>success</selectedRelationships>
+            <source>
+                <groupId>7f7230b4-642a-317d-0000-000000000000</groupId>
+                <id>e7d8276c-b753-3b4c-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>bf2c0c00-98cb-3ef5-0000-000000000000</id>
+            <parentGroupId>7f7230b4-642a-317d-0000-000000000000</parentGroupId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>7f7230b4-642a-317d-0000-000000000000</groupId>
+                <id>04a1cf6e-e29b-38f9-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+            <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+            <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+            <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+            <name></name>
+            <selectedRelationships>success</selectedRelationships>
+            <source>
+                <groupId>7f7230b4-642a-317d-0000-000000000000</groupId>
+                <id>486b81f6-e0e6-35c8-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>cffeed69-de85-3e0d-0000-000000000000</id>
+            <parentGroupId>7f7230b4-642a-317d-0000-000000000000</parentGroupId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>7f7230b4-642a-317d-0000-000000000000</groupId>
+                <id>61cb7bf4-813e-3f39-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+            <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+            <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+            <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+            <name></name>
+            <selectedRelationships>failure</selectedRelationships>
+            <source>
+                <groupId>7f7230b4-642a-317d-0000-000000000000</groupId>
+                <id>f4569b1d-d9a6-3a8b-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>d02c0cd9-e52c-35d1-0000-000000000000</id>
+            <parentGroupId>7f7230b4-642a-317d-0000-000000000000</parentGroupId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>7f7230b4-642a-317d-0000-000000000000</groupId>
+                <id>f5255375-d46d-3611-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+            <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+            <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+            <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+            <name></name>
+            <selectedRelationships>failure</selectedRelationships>
+            <source>
+                <groupId>7f7230b4-642a-317d-0000-000000000000</groupId>
+                <id>486b81f6-e0e6-35c8-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>d81a0af1-4049-3197-0000-000000000000</id>
+            <parentGroupId>7f7230b4-642a-317d-0000-000000000000</parentGroupId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>7f7230b4-642a-317d-0000-000000000000</groupId>
+                <id>f4569b1d-d9a6-3a8b-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+            <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+            <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+            <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+            <name></name>
+            <selectedRelationships>success</selectedRelationships>
+            <source>
+                <groupId>7f7230b4-642a-317d-0000-000000000000</groupId>
+                <id>e682fb70-4b14-34be-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>e4057db6-3c18-3195-0000-000000000000</id>
+            <parentGroupId>7f7230b4-642a-317d-0000-000000000000</parentGroupId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>7f7230b4-642a-317d-0000-000000000000</groupId>
+                <id>b5f36407-bb23-3eef-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+            <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+            <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+            <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+            <name></name>
+            <selectedRelationships>failure</selectedRelationships>
+            <source>
+                <groupId>7f7230b4-642a-317d-0000-000000000000</groupId>
+                <id>6f489973-7200-3d2e-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <processors>
+            <id>04a1cf6e-e29b-38f9-0000-000000000000</id>
+            <parentGroupId>7f7230b4-642a-317d-0000-000000000000</parentGroupId>
+            <position>
+                <x>1008.0</x>
+                <y>640.0</y>
+            </position>
+            <bundle>
+                <artifact>nifi-standard-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.12.0</version>
+            </bundle>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>FlowFile Success Iterations</key>
+                        <value>
+                            <name>FlowFile Success Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Failure Iterations</key>
+                        <value>
+                            <name>FlowFile Failure Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Rollback Iterations</key>
+                        <value>
+                            <name>FlowFile Rollback Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Rollback Yield Iterations</key>
+                        <value>
+                            <name>FlowFile Rollback Yield Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Rollback Penalty Iterations</key>
+                        <value>
+                            <name>FlowFile Rollback Penalty Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Exception Iterations</key>
+                        <value>
+                            <name>FlowFile Exception Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Exception Class</key>
+                        <value>
+                            <name>FlowFile Exception Class</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>No FlowFile Skip Iterations</key>
+                        <value>
+                            <name>No FlowFile Skip Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>No FlowFile Exception Iterations</key>
+                        <value>
+                            <name>No FlowFile Exception Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>No FlowFile Yield Iterations</key>
+                        <value>
+                            <name>No FlowFile Yield Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>No FlowFile Exception Class</key>
+                        <value>
+                            <name>No FlowFile Exception Class</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Write Iterations</key>
+                        <value>
+                            <name>Write Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Content Size</key>
+                        <value>
+                            <name>Content Size</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>@OnScheduled Pause Time</key>
+                        <value>
+                            <name>@OnScheduled Pause Time</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Fail When @OnScheduled called</key>
+                        <value>
+                            <name>Fail When @OnScheduled called</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>@OnUnscheduled Pause Time</key>
+                        <value>
+                            <name>@OnUnscheduled Pause Time</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Fail When @OnUnscheduled called</key>
+                        <value>
+                            <name>Fail When @OnUnscheduled called</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>@OnStopped Pause Time</key>
+                        <value>
+                            <name>@OnStopped Pause Time</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Fail When @OnStopped called</key>
+                        <value>
+                            <name>Fail When @OnStopped called</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>OnTrigger Pause Time</key>
+                        <value>
+                            <name>OnTrigger Pause Time</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>CustomValidate Pause Time</key>
+                        <value>
+                            <name>CustomValidate Pause Time</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Ignore Interrupts When Paused</key>
+                        <value>
+                            <name>Ignore Interrupts When Paused</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>ALL</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>FlowFile Success Iterations</key>
+                        <value>1</value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Failure Iterations</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Rollback Iterations</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Rollback Yield Iterations</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Rollback Penalty Iterations</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Exception Iterations</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Exception Class</key>
+                        <value>java.lang.RuntimeException</value>
+                    </entry>
+                    <entry>
+                        <key>No FlowFile Skip Iterations</key>
+                        <value>1</value>
+                    </entry>
+                    <entry>
+                        <key>No FlowFile Exception Iterations</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>No FlowFile Yield Iterations</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>No FlowFile Exception Class</key>
+                        <value>java.lang.RuntimeException</value>
+                    </entry>
+                    <entry>
+                        <key>Write Iterations</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>Content Size</key>
+                        <value>1 KB</value>
+                    </entry>
+                    <entry>
+                        <key>@OnScheduled Pause Time</key>
+                        <value>0 sec</value>
+                    </entry>
+                    <entry>
+                        <key>Fail When @OnScheduled called</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>@OnUnscheduled Pause Time</key>
+                        <value>0 sec</value>
+                    </entry>
+                    <entry>
+                        <key>Fail When @OnUnscheduled called</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>@OnStopped Pause Time</key>
+                        <value>0 sec</value>
+                    </entry>
+                    <entry>
+                        <key>Fail When @OnStopped called</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>OnTrigger Pause Time</key>
+                        <value>0 sec</value>
+                    </entry>
+                    <entry>
+                        <key>CustomValidate Pause Time</key>
+                        <value>0 sec</value>
+                    </entry>
+                    <entry>
+                        <key>Ignore Interrupts When Paused</key>
+                        <value>false</value>
+                    </entry>
+                </properties>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <executionNodeRestricted>false</executionNodeRestricted>
+            <name>DebugFlow</name>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <name>failure</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <name>success</name>
+            </relationships>
+            <state>STOPPED</state>
+            <style/>
+            <type>org.apache.nifi.processors.standard.DebugFlow</type>
+        </processors>
+        <processors>
+            <id>3e6134df-123f-3489-0000-000000000000</id>
+            <parentGroupId>7f7230b4-642a-317d-0000-000000000000</parentGroupId>
+            <position>
+                <x>0.0</x>
+                <y>1040.0</y>
+            </position>
+            <bundle>
+                <artifact>nifi-standard-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.12.0</version>
+            </bundle>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>FlowFile Success Iterations</key>
+                        <value>
+                            <name>FlowFile Success Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Failure Iterations</key>
+                        <value>
+                            <name>FlowFile Failure Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Rollback Iterations</key>
+                        <value>
+                            <name>FlowFile Rollback Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Rollback Yield Iterations</key>
+                        <value>
+                            <name>FlowFile Rollback Yield Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Rollback Penalty Iterations</key>
+                        <value>
+                            <name>FlowFile Rollback Penalty Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Exception Iterations</key>
+                        <value>
+                            <name>FlowFile Exception Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Exception Class</key>
+                        <value>
+                            <name>FlowFile Exception Class</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>No FlowFile Skip Iterations</key>
+                        <value>
+                            <name>No FlowFile Skip Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>No FlowFile Exception Iterations</key>
+                        <value>
+                            <name>No FlowFile Exception Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>No FlowFile Yield Iterations</key>
+                        <value>
+                            <name>No FlowFile Yield Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>No FlowFile Exception Class</key>
+                        <value>
+                            <name>No FlowFile Exception Class</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Write Iterations</key>
+                        <value>
+                            <name>Write Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Content Size</key>
+                        <value>
+                            <name>Content Size</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>@OnScheduled Pause Time</key>
+                        <value>
+                            <name>@OnScheduled Pause Time</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Fail When @OnScheduled called</key>
+                        <value>
+                            <name>Fail When @OnScheduled called</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>@OnUnscheduled Pause Time</key>
+                        <value>
+                            <name>@OnUnscheduled Pause Time</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Fail When @OnUnscheduled called</key>
+                        <value>
+                            <name>Fail When @OnUnscheduled called</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>@OnStopped Pause Time</key>
+                        <value>
+                            <name>@OnStopped Pause Time</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Fail When @OnStopped called</key>
+                        <value>
+                            <name>Fail When @OnStopped called</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>OnTrigger Pause Time</key>
+                        <value>
+                            <name>OnTrigger Pause Time</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>CustomValidate Pause Time</key>
+                        <value>
+                            <name>CustomValidate Pause Time</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Ignore Interrupts When Paused</key>
+                        <value>
+                            <name>Ignore Interrupts When Paused</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>ALL</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>FlowFile Success Iterations</key>
+                        <value>1</value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Failure Iterations</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Rollback Iterations</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Rollback Yield Iterations</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Rollback Penalty Iterations</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Exception Iterations</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Exception Class</key>
+                        <value>java.lang.RuntimeException</value>
+                    </entry>
+                    <entry>
+                        <key>No FlowFile Skip Iterations</key>
+                        <value>1</value>
+                    </entry>
+                    <entry>
+                        <key>No FlowFile Exception Iterations</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>No FlowFile Yield Iterations</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>No FlowFile Exception Class</key>
+                        <value>java.lang.RuntimeException</value>
+                    </entry>
+                    <entry>
+                        <key>Write Iterations</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>Content Size</key>
+                        <value>1 KB</value>
+                    </entry>
+                    <entry>
+                        <key>@OnScheduled Pause Time</key>
+                        <value>0 sec</value>
+                    </entry>
+                    <entry>
+                        <key>Fail When @OnScheduled called</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>@OnUnscheduled Pause Time</key>
+                        <value>0 sec</value>
+                    </entry>
+                    <entry>
+                        <key>Fail When @OnUnscheduled called</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>@OnStopped Pause Time</key>
+                        <value>0 sec</value>
+                    </entry>
+                    <entry>
+                        <key>Fail When @OnStopped called</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>OnTrigger Pause Time</key>
+                        <value>0 sec</value>
+                    </entry>
+                    <entry>
+                        <key>CustomValidate Pause Time</key>
+                        <value>0 sec</value>
+                    </entry>
+                    <entry>
+                        <key>Ignore Interrupts When Paused</key>
+                        <value>false</value>
+                    </entry>
+                </properties>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <executionNodeRestricted>false</executionNodeRestricted>
+            <name>DebugFlow</name>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <name>failure</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <name>success</name>
+            </relationships>
+            <state>STOPPED</state>
+            <style/>
+            <type>org.apache.nifi.processors.standard.DebugFlow</type>
+        </processors>
+        <processors>
+            <id>486b81f6-e0e6-35c8-0000-000000000000</id>
+            <parentGroupId>7f7230b4-642a-317d-0000-000000000000</parentGroupId>
+            <position>
+                <x>536.0</x>
+                <y>504.0</y>
+            </position>
+            <bundle>
+                <artifact>nifi-standard-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.12.0</version>
+            </bundle>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>Attributes List</key>
+                        <value>
+                            <name>Attributes List</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>attributes-to-json-regex</key>
+                        <value>
+                            <name>attributes-to-json-regex</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Destination</key>
+                        <value>
+                            <name>Destination</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Include Core Attributes</key>
+                        <value>
+                            <name>Include Core Attributes</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Null Value</key>
+                        <value>
+                            <name>Null Value</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>ALL</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>Attributes List</key>
+                        <value>flow2_attributes</value>
+                    </entry>
+                    <entry>
+                        <key>attributes-to-json-regex</key>
+                    </entry>
+                    <entry>
+                        <key>Destination</key>
+                        <value>flowfile-content</value>
+                    </entry>
+                    <entry>
+                        <key>Include Core Attributes</key>
+                        <value>true</value>
+                    </entry>
+                    <entry>
+                        <key>Null Value</key>
+                        <value>false</value>
+                    </entry>
+                </properties>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <executionNodeRestricted>false</executionNodeRestricted>
+            <name>AttributesToJSON</name>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>failure</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>success</name>
+            </relationships>
+            <state>RUNNING</state>
+            <style/>
+            <type>org.apache.nifi.processors.standard.AttributesToJSON</type>
+        </processors>
+        <processors>
+            <id>61cb7bf4-813e-3f39-0000-000000000000</id>
+            <parentGroupId>7f7230b4-642a-317d-0000-000000000000</parentGroupId>
+            <position>
+                <x>552.0</x>
+                <y>840.0</y>
+            </position>
+            <bundle>
+                <artifact>nifi-standard-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.12.0</version>
+            </bundle>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>FlowFile Success Iterations</key>
+                        <value>
+                            <name>FlowFile Success Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Failure Iterations</key>
+                        <value>
+                            <name>FlowFile Failure Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Rollback Iterations</key>
+                        <value>
+                            <name>FlowFile Rollback Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Rollback Yield Iterations</key>
+                        <value>
+                            <name>FlowFile Rollback Yield Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Rollback Penalty Iterations</key>
+                        <value>
+                            <name>FlowFile Rollback Penalty Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Exception Iterations</key>
+                        <value>
+                            <name>FlowFile Exception Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Exception Class</key>
+                        <value>
+                            <name>FlowFile Exception Class</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>No FlowFile Skip Iterations</key>
+                        <value>
+                            <name>No FlowFile Skip Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>No FlowFile Exception Iterations</key>
+                        <value>
+                            <name>No FlowFile Exception Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>No FlowFile Yield Iterations</key>
+                        <value>
+                            <name>No FlowFile Yield Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>No FlowFile Exception Class</key>
+                        <value>
+                            <name>No FlowFile Exception Class</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Write Iterations</key>
+                        <value>
+                            <name>Write Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Content Size</key>
+                        <value>
+                            <name>Content Size</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>@OnScheduled Pause Time</key>
+                        <value>
+                            <name>@OnScheduled Pause Time</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Fail When @OnScheduled called</key>
+                        <value>
+                            <name>Fail When @OnScheduled called</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>@OnUnscheduled Pause Time</key>
+                        <value>
+                            <name>@OnUnscheduled Pause Time</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Fail When @OnUnscheduled called</key>
+                        <value>
+                            <name>Fail When @OnUnscheduled called</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>@OnStopped Pause Time</key>
+                        <value>
+                            <name>@OnStopped Pause Time</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Fail When @OnStopped called</key>
+                        <value>
+                            <name>Fail When @OnStopped called</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>OnTrigger Pause Time</key>
+                        <value>
+                            <name>OnTrigger Pause Time</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>CustomValidate Pause Time</key>
+                        <value>
+                            <name>CustomValidate Pause Time</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Ignore Interrupts When Paused</key>
+                        <value>
+                            <name>Ignore Interrupts When Paused</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>ALL</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>FlowFile Success Iterations</key>
+                        <value>1</value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Failure Iterations</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Rollback Iterations</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Rollback Yield Iterations</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Rollback Penalty Iterations</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Exception Iterations</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Exception Class</key>
+                        <value>java.lang.RuntimeException</value>
+                    </entry>
+                    <entry>
+                        <key>No FlowFile Skip Iterations</key>
+                        <value>1</value>
+                    </entry>
+                    <entry>
+                        <key>No FlowFile Exception Iterations</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>No FlowFile Yield Iterations</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>No FlowFile Exception Class</key>
+                        <value>java.lang.RuntimeException</value>
+                    </entry>
+                    <entry>
+                        <key>Write Iterations</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>Content Size</key>
+                        <value>1 KB</value>
+                    </entry>
+                    <entry>
+                        <key>@OnScheduled Pause Time</key>
+                        <value>0 sec</value>
+                    </entry>
+                    <entry>
+                        <key>Fail When @OnScheduled called</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>@OnUnscheduled Pause Time</key>
+                        <value>0 sec</value>
+                    </entry>
+                    <entry>
+                        <key>Fail When @OnUnscheduled called</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>@OnStopped Pause Time</key>
+                        <value>0 sec</value>
+                    </entry>
+                    <entry>
+                        <key>Fail When @OnStopped called</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>OnTrigger Pause Time</key>
+                        <value>0 sec</value>
+                    </entry>
+                    <entry>
+                        <key>CustomValidate Pause Time</key>
+                        <value>0 sec</value>
+                    </entry>
+                    <entry>
+                        <key>Ignore Interrupts When Paused</key>
+                        <value>false</value>
+                    </entry>
+                </properties>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <executionNodeRestricted>false</executionNodeRestricted>
+            <name>DebugFlow</name>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <name>failure</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <name>success</name>
+            </relationships>
+            <state>STOPPED</state>
+            <style/>
+            <type>org.apache.nifi.processors.standard.DebugFlow</type>
+        </processors>
+        <processors>
+            <id>6f489973-7200-3d2e-0000-000000000000</id>
+            <parentGroupId>7f7230b4-642a-317d-0000-000000000000</parentGroupId>
+            <position>
+                <x>0.0</x>
+                <y>176.0</y>
+            </position>
+            <bundle>
+                <artifact>nifi-standard-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.12.0</version>
+            </bundle>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>Rate Control Criteria</key>
+                        <value>
+                            <name>Rate Control Criteria</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Maximum Rate</key>
+                        <value>
+                            <name>Maximum Rate</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Rate Controlled Attribute</key>
+                        <value>
+                            <name>Rate Controlled Attribute</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Time Duration</key>
+                        <value>
+                            <name>Time Duration</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Grouping Attribute</key>
+                        <value>
+                            <name>Grouping Attribute</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>ALL</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>Rate Control Criteria</key>
+                        <value>flowfile count</value>
+                    </entry>
+                    <entry>
+                        <key>Maximum Rate</key>
+                        <value>1</value>
+                    </entry>
+                    <entry>
+                        <key>Rate Controlled Attribute</key>
+                    </entry>
+                    <entry>
+                        <key>Time Duration</key>
+                        <value>1 min</value>
+                    </entry>
+                    <entry>
+                        <key>Grouping Attribute</key>
+                    </entry>
+                </properties>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <executionNodeRestricted>false</executionNodeRestricted>
+            <name>ControlRate</name>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>failure</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>success</name>
+            </relationships>
+            <state>STOPPED</state>
+            <style/>
+            <type>org.apache.nifi.processors.standard.ControlRate</type>
+        </processors>
+        <processors>
+            <id>aa5ab995-f7fc-39a6-0000-000000000000</id>
+            <parentGroupId>7f7230b4-642a-317d-0000-000000000000</parentGroupId>
+            <position>
+                <x>0.0</x>
+                <y>376.0</y>
+            </position>
+            <bundle>
+                <artifact>nifi-update-attribute-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.12.0</version>
+            </bundle>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>Delete Attributes Expression</key>
+                        <value>
+                            <name>Delete Attributes Expression</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Store State</key>
+                        <value>
+                            <name>Store State</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Stateful Variables Initial Value</key>
+                        <value>
+                            <name>Stateful Variables Initial Value</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>canonical-value-lookup-cache-size</key>
+                        <value>
+                            <name>canonical-value-lookup-cache-size</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>flow2_attributes</key>
+                        <value>
+                            <name>flow2_attributes</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>ALL</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>Delete Attributes Expression</key>
+                    </entry>
+                    <entry>
+                        <key>Store State</key>
+                        <value>Do not store state</value>
+                    </entry>
+                    <entry>
+                        <key>Stateful Variables Initial Value</key>
+                    </entry>
+                    <entry>
+                        <key>canonical-value-lookup-cache-size</key>
+                        <value>100</value>
+                    </entry>
+                    <entry>
+                        <key>flow2_attributes</key>
+                        <value>${flow2_attributes:plus(1)}</value>
+                    </entry>
+                </properties>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <executionNodeRestricted>false</executionNodeRestricted>
+            <name>UpdateAttribute</name>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>success</name>
+            </relationships>
+            <state>RUNNING</state>
+            <style/>
+            <type>org.apache.nifi.processors.attributes.UpdateAttribute</type>
+        </processors>
+        <processors>
+            <id>b5f36407-bb23-3eef-0000-000000000000</id>
+            <parentGroupId>7f7230b4-642a-317d-0000-000000000000</parentGroupId>
+            <position>
+                <x>520.0</x>
+                <y>168.0</y>
+            </position>
+            <bundle>
+                <artifact>nifi-standard-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.12.0</version>
+            </bundle>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>FlowFile Success Iterations</key>
+                        <value>
+                            <name>FlowFile Success Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Failure Iterations</key>
+                        <value>
+                            <name>FlowFile Failure Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Rollback Iterations</key>
+                        <value>
+                            <name>FlowFile Rollback Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Rollback Yield Iterations</key>
+                        <value>
+                            <name>FlowFile Rollback Yield Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Rollback Penalty Iterations</key>
+                        <value>
+                            <name>FlowFile Rollback Penalty Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Exception Iterations</key>
+                        <value>
+                            <name>FlowFile Exception Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Exception Class</key>
+                        <value>
+                            <name>FlowFile Exception Class</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>No FlowFile Skip Iterations</key>
+                        <value>
+                            <name>No FlowFile Skip Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>No FlowFile Exception Iterations</key>
+                        <value>
+                            <name>No FlowFile Exception Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>No FlowFile Yield Iterations</key>
+                        <value>
+                            <name>No FlowFile Yield Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>No FlowFile Exception Class</key>
+                        <value>
+                            <name>No FlowFile Exception Class</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Write Iterations</key>
+                        <value>
+                            <name>Write Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Content Size</key>
+                        <value>
+                            <name>Content Size</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>@OnScheduled Pause Time</key>
+                        <value>
+                            <name>@OnScheduled Pause Time</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Fail When @OnScheduled called</key>
+                        <value>
+                            <name>Fail When @OnScheduled called</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>@OnUnscheduled Pause Time</key>
+                        <value>
+                            <name>@OnUnscheduled Pause Time</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Fail When @OnUnscheduled called</key>
+                        <value>
+                            <name>Fail When @OnUnscheduled called</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>@OnStopped Pause Time</key>
+                        <value>
+                            <name>@OnStopped Pause Time</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Fail When @OnStopped called</key>
+                        <value>
+                            <name>Fail When @OnStopped called</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>OnTrigger Pause Time</key>
+                        <value>
+                            <name>OnTrigger Pause Time</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>CustomValidate Pause Time</key>
+                        <value>
+                            <name>CustomValidate Pause Time</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Ignore Interrupts When Paused</key>
+                        <value>
+                            <name>Ignore Interrupts When Paused</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>ALL</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>FlowFile Success Iterations</key>
+                        <value>1</value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Failure Iterations</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Rollback Iterations</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Rollback Yield Iterations</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Rollback Penalty Iterations</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Exception Iterations</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Exception Class</key>
+                        <value>java.lang.RuntimeException</value>
+                    </entry>
+                    <entry>
+                        <key>No FlowFile Skip Iterations</key>
+                        <value>1</value>
+                    </entry>
+                    <entry>
+                        <key>No FlowFile Exception Iterations</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>No FlowFile Yield Iterations</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>No FlowFile Exception Class</key>
+                        <value>java.lang.RuntimeException</value>
+                    </entry>
+                    <entry>
+                        <key>Write Iterations</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>Content Size</key>
+                        <value>1 KB</value>
+                    </entry>
+                    <entry>
+                        <key>@OnScheduled Pause Time</key>
+                        <value>0 sec</value>
+                    </entry>
+                    <entry>
+                        <key>Fail When @OnScheduled called</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>@OnUnscheduled Pause Time</key>
+                        <value>0 sec</value>
+                    </entry>
+                    <entry>
+                        <key>Fail When @OnUnscheduled called</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>@OnStopped Pause Time</key>
+                        <value>0 sec</value>
+                    </entry>
+                    <entry>
+                        <key>Fail When @OnStopped called</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>OnTrigger Pause Time</key>
+                        <value>0 sec</value>
+                    </entry>
+                    <entry>
+                        <key>CustomValidate Pause Time</key>
+                        <value>0 sec</value>
+                    </entry>
+                    <entry>
+                        <key>Ignore Interrupts When Paused</key>
+                        <value>false</value>
+                    </entry>
+                </properties>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <executionNodeRestricted>false</executionNodeRestricted>
+            <name>DebugFlow</name>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <name>failure</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <name>success</name>
+            </relationships>
+            <state>RUNNING</state>
+            <style/>
+            <type>org.apache.nifi.processors.standard.DebugFlow</type>
+        </processors>
+        <processors>
+            <id>e682fb70-4b14-34be-0000-000000000000</id>
+            <parentGroupId>7f7230b4-642a-317d-0000-000000000000</parentGroupId>
+            <position>
+                <x>0.0</x>
+                <y>664.0</y>
+            </position>
+            <bundle>
+                <artifact>nifi-groovyx-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.12.0</version>
+            </bundle>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>groovyx-script-file</key>
+                        <value>
+                            <name>groovyx-script-file</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>groovyx-script-body</key>
+                        <value>
+                            <name>groovyx-script-body</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>groovyx-failure-strategy</key>
+                        <value>
+                            <name>groovyx-failure-strategy</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>groovyx-additional-classpath</key>
+                        <value>
+                            <name>groovyx-additional-classpath</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>ALL</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>groovyx-script-file</key>
+                    </entry>
+                    <entry>
+                        <key>groovyx-script-body</key>
+                        <value>import groovy.json.*
+
+def ff=session.get()
+def json=""
+if(!ff)return
+
+ff.write{rawIn,rawOut-&gt;
+    //parse json from input stream of the flow file
+    json = rawIn.withReader("UTF-8"){reader-&gt; 
+        new JsonSlurper().parse( reader )
+    }	
+
+    //write json to flow file output stream
+    rawOut.withWriter("UTF-8"){writer-&gt;
+        new JsonBuilder(json).writeTo(writer)
+    }
+
+
+}
+   if(json.flow2_attributes.toInteger()&lt;10){
+session.transfer(ff, REL_FAILURE)
+   }else{
+session.transfer(ff, REL_SUCCESS)
+    }
+</value>
+                    </entry>
+                    <entry>
+                        <key>groovyx-failure-strategy</key>
+                        <value>rollback</value>
+                    </entry>
+                    <entry>
+                        <key>groovyx-additional-classpath</key>
+                    </entry>
+                </properties>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <executionNodeRestricted>false</executionNodeRestricted>
+            <name>ExecuteGroovyScript-IF-CONTROL</name>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>failure</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>success</name>
+            </relationships>
+            <state>RUNNING</state>
+            <style/>
+            <type>org.apache.nifi.processors.groovyx.ExecuteGroovyScript</type>
+        </processors>
+        <processors>
+            <id>e7d8276c-b753-3b4c-0000-000000000000</id>
+            <parentGroupId>7f7230b4-642a-317d-0000-000000000000</parentGroupId>
+            <position>
+                <x>0.0</x>
+                <y>0.0</y>
+            </position>
+            <bundle>
+                <artifact>nifi-standard-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.12.0</version>
+            </bundle>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>File Size</key>
+                        <value>
+                            <name>File Size</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Batch Size</key>
+                        <value>
+                            <name>Batch Size</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Data Format</key>
+                        <value>
+                            <name>Data Format</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Unique FlowFiles</key>
+                        <value>
+                            <name>Unique FlowFiles</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>generate-ff-custom-text</key>
+                        <value>
+                            <name>generate-ff-custom-text</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>character-set</key>
+                        <value>
+                            <name>character-set</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>mime-type</key>
+                        <value>
+                            <name>mime-type</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>flow2_attributes</key>
+                        <value>
+                            <name>flow2_attributes</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>ALL</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>File Size</key>
+                        <value>0B</value>
+                    </entry>
+                    <entry>
+                        <key>Batch Size</key>
+                        <value>1</value>
+                    </entry>
+                    <entry>
+                        <key>Data Format</key>
+                        <value>Text</value>
+                    </entry>
+                    <entry>
+                        <key>Unique FlowFiles</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>generate-ff-custom-text</key>
+                    </entry>
+                    <entry>
+                        <key>character-set</key>
+                        <value>UTF-8</value>
+                    </entry>
+                    <entry>
+                        <key>mime-type</key>
+                    </entry>
+                    <entry>
+                        <key>flow2_attributes</key>
+                        <value>0</value>
+                    </entry>
+                </properties>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <executionNodeRestricted>false</executionNodeRestricted>
+            <name>GenerateFlowFile</name>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>success</name>
+            </relationships>
+            <state>RUNNING</state>
+            <style/>
+            <type>org.apache.nifi.processors.standard.GenerateFlowFile</type>
+        </processors>
+        <processors>
+            <id>f4569b1d-d9a6-3a8b-0000-000000000000</id>
+            <parentGroupId>7f7230b4-642a-317d-0000-000000000000</parentGroupId>
+            <position>
+                <x>0.0</x>
+                <y>848.0</y>
+            </position>
+            <bundle>
+                <artifact>nifi-groovyx-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.12.0</version>
+            </bundle>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>groovyx-script-file</key>
+                        <value>
+                            <name>groovyx-script-file</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>groovyx-script-body</key>
+                        <value>
+                            <name>groovyx-script-body</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>groovyx-failure-strategy</key>
+                        <value>
+                            <name>groovyx-failure-strategy</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>groovyx-additional-classpath</key>
+                        <value>
+                            <name>groovyx-additional-classpath</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>ALL</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>groovyx-script-file</key>
+                    </entry>
+                    <entry>
+                        <key>groovyx-script-body</key>
+                        <value>import groovy.json.*
+
+def ff=session.get()
+def json=""
+if(!ff)return
+
+ff.write{rawIn,rawOut-&gt;
+    //parse json from input stream of the flow file
+    json = rawIn.withReader("UTF-8"){reader-&gt; 
+        new JsonSlurper().parse( reader )
+    }	
+    json."new_field_for_name" = "adem"
+    //write json to flow file output stream
+    rawOut.withWriter("UTF-8"){writer-&gt;
+        new JsonBuilder(json).writeTo(writer)
+    }
+
+
+}
+session.transfer(ff, REL_SUCCESS)
+</value>
+                    </entry>
+                    <entry>
+                        <key>groovyx-failure-strategy</key>
+                        <value>rollback</value>
+                    </entry>
+                    <entry>
+                        <key>groovyx-additional-classpath</key>
+                    </entry>
+                </properties>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <executionNodeRestricted>false</executionNodeRestricted>
+            <name>ExecuteGroovyScript-ADD-FIELD</name>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>failure</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>success</name>
+            </relationships>
+            <state>RUNNING</state>
+            <style/>
+            <type>org.apache.nifi.processors.groovyx.ExecuteGroovyScript</type>
+        </processors>
+        <processors>
+            <id>f5255375-d46d-3611-0000-000000000000</id>
+            <parentGroupId>7f7230b4-642a-317d-0000-000000000000</parentGroupId>
+            <position>
+                <x>1008.0</x>
+                <y>360.0</y>
+            </position>
+            <bundle>
+                <artifact>nifi-standard-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.12.0</version>
+            </bundle>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>FlowFile Success Iterations</key>
+                        <value>
+                            <name>FlowFile Success Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Failure Iterations</key>
+                        <value>
+                            <name>FlowFile Failure Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Rollback Iterations</key>
+                        <value>
+                            <name>FlowFile Rollback Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Rollback Yield Iterations</key>
+                        <value>
+                            <name>FlowFile Rollback Yield Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Rollback Penalty Iterations</key>
+                        <value>
+                            <name>FlowFile Rollback Penalty Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Exception Iterations</key>
+                        <value>
+                            <name>FlowFile Exception Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Exception Class</key>
+                        <value>
+                            <name>FlowFile Exception Class</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>No FlowFile Skip Iterations</key>
+                        <value>
+                            <name>No FlowFile Skip Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>No FlowFile Exception Iterations</key>
+                        <value>
+                            <name>No FlowFile Exception Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>No FlowFile Yield Iterations</key>
+                        <value>
+                            <name>No FlowFile Yield Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>No FlowFile Exception Class</key>
+                        <value>
+                            <name>No FlowFile Exception Class</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Write Iterations</key>
+                        <value>
+                            <name>Write Iterations</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Content Size</key>
+                        <value>
+                            <name>Content Size</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>@OnScheduled Pause Time</key>
+                        <value>
+                            <name>@OnScheduled Pause Time</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Fail When @OnScheduled called</key>
+                        <value>
+                            <name>Fail When @OnScheduled called</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>@OnUnscheduled Pause Time</key>
+                        <value>
+                            <name>@OnUnscheduled Pause Time</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Fail When @OnUnscheduled called</key>
+                        <value>
+                            <name>Fail When @OnUnscheduled called</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>@OnStopped Pause Time</key>
+                        <value>
+                            <name>@OnStopped Pause Time</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Fail When @OnStopped called</key>
+                        <value>
+                            <name>Fail When @OnStopped called</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>OnTrigger Pause Time</key>
+                        <value>
+                            <name>OnTrigger Pause Time</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>CustomValidate Pause Time</key>
+                        <value>
+                            <name>CustomValidate Pause Time</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Ignore Interrupts When Paused</key>
+                        <value>
+                            <name>Ignore Interrupts When Paused</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>ALL</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>FlowFile Success Iterations</key>
+                        <value>1</value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Failure Iterations</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Rollback Iterations</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Rollback Yield Iterations</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Rollback Penalty Iterations</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Exception Iterations</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>FlowFile Exception Class</key>
+                        <value>java.lang.RuntimeException</value>
+                    </entry>
+                    <entry>
+                        <key>No FlowFile Skip Iterations</key>
+                        <value>1</value>
+                    </entry>
+                    <entry>
+                        <key>No FlowFile Exception Iterations</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>No FlowFile Yield Iterations</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>No FlowFile Exception Class</key>
+                        <value>java.lang.RuntimeException</value>
+                    </entry>
+                    <entry>
+                        <key>Write Iterations</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>Content Size</key>
+                        <value>1 KB</value>
+                    </entry>
+                    <entry>
+                        <key>@OnScheduled Pause Time</key>
+                        <value>0 sec</value>
+                    </entry>
+                    <entry>
+                        <key>Fail When @OnScheduled called</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>@OnUnscheduled Pause Time</key>
+                        <value>0 sec</value>
+                    </entry>
+                    <entry>
+                        <key>Fail When @OnUnscheduled called</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>@OnStopped Pause Time</key>
+                        <value>0 sec</value>
+                    </entry>
+                    <entry>
+                        <key>Fail When @OnStopped called</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>OnTrigger Pause Time</key>
+                        <value>0 sec</value>
+                    </entry>
+                    <entry>
+                        <key>CustomValidate Pause Time</key>
+                        <value>0 sec</value>
+                    </entry>
+                    <entry>
+                        <key>Ignore Interrupts When Paused</key>
+                        <value>false</value>
+                    </entry>
+                </properties>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <executionNodeRestricted>false</executionNodeRestricted>
+            <name>DebugFlow</name>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <name>failure</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <name>success</name>
+            </relationships>
+            <state>STOPPED</state>
+            <style/>
+            <type>org.apache.nifi.processors.standard.DebugFlow</type>
+        </processors>
+    </snippet>
+    <timestamp>11/26/2021 21:07:28 UTC</timestamp>
+</template>
